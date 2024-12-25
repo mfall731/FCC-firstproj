@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+
+        <title>Favorite Band Survey</title>
+        <h1 id="title">Favorite Bands Survey</h1>
+        <p id="description">Fill out this survey and select your favorite bands!</p>
+    </head>
+
+    <body>
+        <form id="survey-form">
+            <div class="text-inputs">
+                <label for="name">Enter your name:</label>
+                <input required id="name" type="text">
+
+                <label for="email">Enter your email:</label>
+                <input required id="email" type="email">
+
+                <label for="number">Enter your age (optional):</label>
+                <input id="number" type="text">
+            </div>
+
+            <div class="checkbox1-inputs">
+                <label for="checkbox1-fav">Which metal band do you prefer?</label>
+                <label><input required name="checkbox1-fav" type="radio" id="checkbox1-fav" type="checkbox">Mötley Crüe</label>
+                <label><input required name="checkbox1-fav" type="radio" id="checkbox1-fav" type="checkbox">Guns n Roses</label>
+                <label><input required name="checkbox1-fav" type="radio" id="checkbox1-fav" type="checkbox">KISS</label>
+                <label><input required name="checkbox1-fav" type="radio" id="checkbox1-fav" type="checkbox">Metallica</label>
+                <label><input required name="checkbox1-fav" type="radio" id="checkbox1-fav" type="checkbox">AC/DC</label>
+            </div>
+
+            <div class="checkbox2-inputs">
+                <label for="checkbox2-fav">Which midwestern band do you prefer?</label>
+                <label><input required name="checkbox2-fav" type="radio" id="checkbox2-fav" type="checkbox">McCafferty</label>
+                <label><input required name="checkbox2-fav" type="radio" id="checkbox2-fav" type="checkbox">Mom Jeans.</label>
+                <label><input required name="checkbox2-fav" type="radio" id="checkbox2-fav" type="checkbox">La Dispute</label>
+                <label><input required name="checkbox2-fav" type="radio" id="checkbox2-fav" type="checkbox">The Front Bottoms</label>
+                <label><input required name="checkbox2-fav" type="radio" id="checkbox2-fav" type="checkbox">Free Throw</label>
+            </div>
+            
+            <button type="submit">Submit Form</button>
+        </form>
+
+    </body>
+</html>
